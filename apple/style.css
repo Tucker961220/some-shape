@@ -1,0 +1,18 @@
+.apple {
+  width: 100px;
+  height: 120px;
+  background-color: red;
+  border-radius: 50% 50% 40% 40%;
+  position: relative;
+  margin: 50px auto;
+}
+
+.leaf {
+  width: 20px;
+  height: 40px;
+  background-color: green;
+  border-radius: 0 50% 50% 50%;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+}

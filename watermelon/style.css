@@ -1,0 +1,43 @@
+.watermelon {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  border-radius: 100px 100px 0 0;
+  position: relative;
+  margin: 50px auto;
+}
+
+.rind {
+  width: 220px;
+  height: 20px;
+  background-color: green;
+  border-radius: 10px 10px 0 0;
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+}
+
+.seeds {
+  position: relative;
+  top: 30px;
+}
+
+.seed {
+  width: 10px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.seed:nth-child(1) {
+  left: 50px;
+}
+
+.seed:nth-child(2) {
+  left: 90px;
+}
+
+.seed:nth-child(3) {
+  left: 130px;
+}

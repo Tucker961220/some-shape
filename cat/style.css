@@ -1,0 +1,82 @@
+.cat {
+  width: 200px;
+  height: 200px;
+}
+
+.ear {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  position: absolute;
+  border-width: 50px 50px 0 50px;
+  border-color: gray transparent transparent transparent;
+  position: absolute;
+}
+
+.ear.left {
+  left: 20px;
+  top: 20px;
+}
+
+.ear.right {
+  right: 20px;
+  top: 20px;
+}
+
+.face {
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  border-radius: 50%;
+  position: relative;
+}
+
+.eye {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+}
+
+.eye.left {
+  left: 40px;
+}
+
+.eye.right {
+  right: 40px;
+}
+
+.nose {
+  width: 20px;
+  height: 20px;
+  background-color: pink;
+  border-radius: 50%;
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.whiskers {
+  width: 60px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  top: 130px;
+}
+
+.whiskers.left {
+  left: 10px;
+}
+
+.whiskers.right {
+  right: 10px;
+}
+
+
+
+.class{
+  position: absolute;
+}
